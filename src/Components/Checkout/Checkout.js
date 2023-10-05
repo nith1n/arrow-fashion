@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import { commerce } from "../../lib/Commerce";
 import "./Checkout.css";
 
 const Checkout = () => {
+  // TODO: Checkout functionality
+  
   // const [checkoutToken, setCheckoutToken] = useState(null);
 
   // useEffect(() => {
