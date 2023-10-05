@@ -1,24 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { commerce } from "../../lib/Commerce";
 import "./Checkout.css";
 
-const Checkout = ({ cart }) => {
-  const [checkoutToken, setCheckoutToken] = useState(null);
+const Checkout = () => {
+  // const [checkoutToken, setCheckoutToken] = useState(null);
 
-  useEffect(() => {
-    const generateToken = async () => {
-      try {
-        const token = await commerce.checkout.generateToken({
-          type: "cart",
-        });
-        console.log(token);
-        setCheckoutToken(token);
-      } catch (error) {
-        console.error("Error generating token:", error);
-      }
-    };
-    generateToken();
-  }, []);
+  // useEffect(() => {
+  //   const generateToken = async () => {
+  //     try {
+  //       const token = await commerce.checkout.generateToken({
+  //         type: "cart",
+  //       });
+  //       console.log(token);
+  //       setCheckoutToken(token);
+  //     } catch (error) {
+  //       console.error("Error generating token:", error);
+  //     }
+  //   };
+  //   generateToken();
+  // }, []);
 
   return (
     <div>
