@@ -9,7 +9,7 @@ const Navbar = ({ totalItems }) => {
     <nav>
       <Link to="/" className="link">
         <div className="logo">
-          <i className="uil uil-arrow-down-right"></i> Arrow Fashion
+          <i className="uil uil-arrow-down-right"></i> Arrow Fashion Store
         </div>
       </Link>
       {location.pathname === "/" && (
