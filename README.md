@@ -1,35 +1,29 @@
 # Arrow Fashion
 
 An E-Commerce application made using React.js and commerce.js
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+# How to contribute
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Fork this repository ( Click the Fork button in the top right of this page ).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+2. Clone your fork into your local machine.
 
-### `npm test`
+```
+git clone https://github.com/[username]/arrow-fashion.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Make your changes.
 
-### `npm run build`
+4. Commit and Push your code.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git add .
+git commit -m 'commit message'
+git push -u origin your-branch-name
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Create a new pull request from your forked repository ( Click the New Pull Request button located at the top of your repo ).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
+6. Wait for your PR to be reviewed and approved for merge ✨.
 
